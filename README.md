@@ -28,17 +28,17 @@ There is multiple way to get access to a git repository
 * Basic thought of Git is to copy the project code from a shared remote repository to your local computer, work with the code and then upload your changes to the repository again.  
 * To work with this efficiently and avoid uneccessary headache for you and your friends there is a feature in git that is called branches. The main project code is on the Master Branch which should always work ALWAYS!!! and then you when you clone the code to your local computer you create a local branch that you work against. When you are finished push your changes to the Master branch example:
 
-  Master branch<br />
-  	|<br />
-	|<br />
-	|	     bugfix branch (local branch)<br />
-	|--------pull----->|<br />
-	|		   |<br />
-	|		   | local changes<br />
-	|	      	   |<br />
-        |<-------push------|<br />
-	|<br />
-	|<br />
+  Master branch<br/>
+  	|<br/>
+	|<br/>
+	|	bugfix branch (local branch)<br/>
+	|--------pull----->|<br/>
+	|		           |<br/>
+	|		           | local changes<br/>
+	|	      	       |<br/>
+    |<-------push------|<br/>
+	|<br/>
+	|<br/>
 
 Example of commands to to this procedure would be:
 
