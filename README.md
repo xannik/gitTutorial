@@ -27,13 +27,13 @@ There is multiple way to get access to a git repository
 * Congratulations, you have now copied my malware to your computer...
 * Basic thought of Git is to copy the project code from a shared remote repository to your local computer, work with the code and then upload your changes to the repository again.  
 * To work with this efficiently and avoid uneccessary headache for you and your friends there is a feature in git that is called branches. The main project code is on the Master Branch which should always work ALWAYS!!! and then you when you clone the code to your local computer you create a local branch that you work against. When you are finished push your changes to the Master branch example:
-![alt text](https://bitbucket.org/ScorpionPepper/git-tutorial/src/master/gitflow1.png)
+![Alt text](gitflow1.png)
 
 Example of commands to to this procedure would be:
 
 git pull (updates your local branch)
-git checkout -b bugfix
 "drunk coding"
+git commit
 git push origin master
 
 What is happening on your computer is that when you clone down the master branch you will create a local master branch. This branch is a copy of "real master branch" from that specific time that you cloned it. Since many people are updating master with their fixes, your current master might not be updated to the remote master when you are done with your changes which will end up in a merge conflict.
