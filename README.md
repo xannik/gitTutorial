@@ -23,13 +23,13 @@
 
 There is multiple way to get access to a git repository
 - Usually you clone it from the specific domain where the repository is created
-- Downloads varies dependet on what site you use or in at what company you are. The principle is however the same.
+- Downloads varies dependet on what site you use and from company to company. The principle is however the same.
 
 * To download from this repository you have to click on the clone button in the top right corner.
 * Copy the link that pops up and open a commandline terminal. (If you use windows... god help us....)
 * On linux:
 	* create a folder ex. <gitTutorial> at a good location on your computer
-	* cd into the folder <gitTutorial>, type "git clone" and paste the link in the terminal and press enter command should look like this: git clone https://github.com/xannik/gitTutorial.git 
+	* cd into the folder <gitTutorial>, type "git clone" and paste the link in the terminal and press enter. Command should look like this: git clone https://github.com/xannik/gitTutorial.git 
 	  * (you might need to enter your github password in case you haven't changes your .gitconfig file)
 	
 
@@ -37,7 +37,7 @@ There is multiple way to get access to a git repository
 
 * Congratulations, you have now copied my malware to your computer...
 * Basic thought of Git is to copy the project code from a shared remote repository to your local computer, work with the code and then upload your changes to the repository again.  
-* To work with this efficiently and avoid uneccessary headache for you and your friends there is a feature in git that is called branches. The main project code is on the Master Branch which should always work ALWAYS!!! and then you when you clone the code to your local computer you create a local branch that you work against. When you are finished push your changes to the Master branch example:
+* To work with this efficiently and avoid uneccessary headache for you and your friends there is a feature in git that is called branches. The main project code is on the Master Branch which should always work ALWAYS!!! and then you when you clone the code to your local computer you create a local branch, that you work against. When you are finished, push your changes to the Master branch example:
 
 ![Alt text](gitflow1.png)
 
@@ -54,7 +54,7 @@ To avoid this, a good idéa is to have your local master clean and make sure tha
 
 ![Alt text](gitflow2.png)
 
-The small texts with numbers are suppose to be a step by step procedure for when you are about to push your changes to the remote master branch. Keeping your local master updated is key and it should HURT IN YOUR WHOLE BODY before you do a git pull and updates your local master.
+The small texts with numbers are suppose to be a step by step procedure for when you are about to push your changes to the remote master branch. Keeping your local master updated is key and it should HURT IN YOUR WHOLE BODY before you do a git pull and update your local master.
 
 With this way of working headache is minimal, there is however cases where you have to be careful. If 2 people work in the same file then one of you will most likley get merge conflict which you will have to solve localy before you push your own changes. (depends on who merges their own changes first on the remote master branch)
 So my tip for this is:
