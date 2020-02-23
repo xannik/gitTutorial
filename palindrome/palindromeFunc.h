@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef PALINDROME_H
+#define PALINDROME_H
 
 
 

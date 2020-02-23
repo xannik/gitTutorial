@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef TOBINARY_H
+#define TOBINARY_H
 
 /* add function header here */ 
 
