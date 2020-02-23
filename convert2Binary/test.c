@@ -6,8 +6,8 @@
 #define NUMBER_OF_BITS_IN_BYTE 8
 typedef struct test
 {
-    int number;
-    char byteString[NUMBER_OF_BITS_IN_BYTE];
+    int number; // input to function
+    char byteString[NUMBER_OF_BITS_IN_BYTE]; // reference data
 } testData;
 
 //local function header

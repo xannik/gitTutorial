@@ -1,5 +1,5 @@
-#ifndef PALINDFROMEFUNC_HEADER
-#define PALINDFROMEFUNC_HEADER
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 
 
@@ -7,9 +7,6 @@
 /*
     function header
 */
-
-
-
 
 
 

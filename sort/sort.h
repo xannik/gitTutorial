@@ -1,5 +1,5 @@
-#ifndef SORT_HEADER
-#define SORT_HEADER
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 /* implement function head here */
 

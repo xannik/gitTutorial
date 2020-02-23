@@ -79,7 +79,9 @@ Basic git commands:
 		* git commit -m "this is a commit message"
 		* git commit (this will open a chosen text editor)
 			* to modify the text editor type: git config --global core.editor "emacs".
-			* emacs is my preferable editor AND it is the best editor in the world. 
+			* emacs is my preferable editor (best editor in the world.)
+			* **PROTIP!** I would recommend to atleast learn vi, vim or emacs since these are most common inbuilt editors in embedded software
+				* typical scenario: you need to change a file on a server, you ssh in to the server and then you can open vim/emacs in that ssh session. (GUI based editors can't be opened in ssh sessions) 
 * git log
 	* key command to see the history of the repository. Displays the history stack of all the commits that have been pushed to master + your local commits that you have currently created
 * git blame
@@ -87,6 +89,18 @@ Basic git commands:
 * git diff
 	* Displays what has been changed in your files from when you did a git pull
 	
-### Who do I talk to? ###
-* Repo owner or admiu
-* Other community or team contac
+### Make ###
+This project are built with make which is a system building tool where you specify rules and dependencies to compile multiple files at once.
+
+Make uses Makefile as its reference file to know the project structure, linkers, dependecies etc.
+
+There are multiple tools that you can use and they are mostly used for low level languages such as c/c++
+visual studio uses cmake which is an extended Make.
+
+Everything should be prepared in this project and when you want to build your code you:
+* make sure you stand in the same folder as the Makefile
+* type: make help
+	* this should display the rules that I have specified.
+	* this will compile the program and produce an exectuable file example: program.exe
+* execute the program as usual with: ./program.exe
+

@@ -6,8 +6,8 @@
 
 typedef struct wordList
 {
-    char word[30];
-    bool valid;
+    char word[30]; // input to function
+    bool valid; // reference data
 } WordList;
 
 
