@@ -1,5 +1,14 @@
 # Git Tutorial #
 
+###Task###
+* Solve the 3 tasks palindrome, sort, decimal too binary
+* palindrome
+  * should be able to check if the word is a palindrome or not.
+* sort 
+  * an array of integers in decending or acending order.
+* decimal too binary
+  * convert a integer to a char string equal the given decimal
+
 ### What is git? ###
 
 * Version control system to be able to work with the same project simultaneously in a smooth way :D
@@ -20,7 +29,9 @@ There is multiple way to get access to a git repository
 * Copy the link that pops up and open a commandline terminal. (If you use windows... god help us....)
 * On linux:
 	* create a folder ex. <gitTutorial> at a good location on your computer
-	* cd into the folder <gitTutorial>, paste the link in the terminal and press enter (you might need to copy your bitbucket password in case you haven't changes your .gitconfig file)
+	* cd into the folder <gitTutorial>, type "git clone" and paste the link in the terminal and press enter command should look like this: git clone https://github.com/xannik/gitTutorial.git 
+	  * (you might need to enter your github password in case you haven't changes your .gitconfig file)
+	
 
 ### Working with git ###
 
@@ -103,4 +114,6 @@ Everything should be prepared in this project and when you want to build your co
 	* this should display the rules that I have specified.
 	* this will compile the program and produce an exectuable file example: program.exe
 * execute the program as usual with: ./program.exe
+
+
 
