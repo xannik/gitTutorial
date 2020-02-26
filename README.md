@@ -65,13 +65,13 @@ So my tip for this is:
 
 Basic git commands:
 
-* ** git pull origin master
+* **git pull origin master**
 	* downloads the code from the remote repository to your local master branch and merges your code with the remote code
 	* origin is the keyword for remote branches. you can also have your own remote branch in parallell with the master branch. in that case you would type pull origin myRemoteBranch
 	* a usefull flag to add to git pull is --rebase which will basically amend instead of merge your commits.
-* ** git push origin master 
+* **git push origin master**
 	* uploads your changes to the remote master branch
-* ** git commit
+* **git commit**
 	* Stores your current changes and applies a commit id. VERY usefull if you want to backtrack and have observability of your project flow. Also contains a commit message (hopefully) describing the changes that has been done.
 	* with commits you can also work in different ways. Either you do multiple commits of your changes and then push that to master, for example: 
 		* local change 1
@@ -95,20 +95,20 @@ Basic git commands:
 			* emacs is my preferable editor (best editor in the world.)
 			* **PROTIP!** I would recommend to atleast learn vi, vim or emacs since these are most common inbuilt editors in embedded software
 				* typical scenario: you need to change a file on a server, you ssh in to the server and then you can open vim/emacs in that ssh session. (GUI based editors can't be opened in ssh sessions) 
-* ** git log
+* **git log**
 	* key command to see the history of the repository. Displays the history stack of all the commits that have been pushed to master + your local commits that you have currently created
-* ** git blame
+* **git blame**
 	* basically doing what it says. git blame <filename> and you can see what person changed what lines of code in the specific file
-* ** git diff
+* **git diff**
 	* Displays what has been changed in your files from when you did a git pull
-* ** git stash
+* **git stash**
   	* Saves the changes on your current branch that you are standing on
 	* good if you have to switch branches quickly and then return to your previous branch again
-* ** git apply
+* **git apply**
   	* applies the temporary changes that you stashed
-* ** git pop
+* **git pop**
   	* basically the same as git apply
-* ** git grep
+* **git grep**
   	* Very useful command. You can search for anything inside the git repository
 	
 ### Make ###
