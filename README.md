@@ -71,6 +71,16 @@ Basic git commands:
 	* a usefull flag to add to git pull is --rebase which will basically amend instead of merge your commits.
 * **git push origin master**
 	* uploads your changes to the remote master branch
+* **git branch**
+	* List all localy created branches
+	* git branch -D <branch_name> - Delete a specific branch
+* **git checkout**
+	* Used to switch between local branches or branches stored in git log
+		* ex: git checkout <branch_name>
+		* If you want to checkout a branch stored in the log history then you have to specify the change id for that specific 
+commit.
+	* adding -b will create a new branch and also switch to that branch.
+		* ex: git checkout -b <my_new_branch>
 * **git commit**
 	* Stores your current changes and applies a commit id. VERY usefull if you want to backtrack and have observability of your project flow. Also contains a commit message (hopefully) describing the changes that has been done.
 	* with commits you can also work in different ways. Either you do multiple commits of your changes and then push that to master, for example: 
