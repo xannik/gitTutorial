@@ -74,10 +74,13 @@ Basic git commands:
 * **git branch**
 	* List all localy created branches
 	* git branch -D <branch_name> - Delete a specific branch
+* **git add**
+  	* stage you modified file. All staged files will be added to the commit that you create before you push your changes.
 * **git checkout**
 	* Used to switch between local branches or branches stored in git log
 		* ex: git checkout <branch_name>
-		* If you want to checkout a branch stored in the log history then you have to specify the change id for that specific 
+		* If you want to checkout a branch stored in the log history then you have to specify the change id for that specific
+		* also used when you want to undo changes on a modified file. ex: git checkout <file_name> will reset the file to the state it was before you started changing it on your current branch.
 commit.
 	* adding -b will create a new branch and also switch to that branch.
 		* ex: git checkout -b <my_new_branch>
